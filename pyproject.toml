@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "internship-c-dataset-1"
+version = "0.1.0"
+description = "Dataset1"
+authors = ["chuannarongvat <narongvat.chingpayakmon@student.uts.edu.au>"]
+readme = "README.md"
+packages = [{include = "internship_c_dataset_1"}]
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+pandas = "2.0.1"
+jupyterlab = "3.6.3"
+scikit-learn = "1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
